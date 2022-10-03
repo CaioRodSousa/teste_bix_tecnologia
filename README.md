@@ -30,13 +30,11 @@ As seguintes ferramentas foram usadas na resolução dos questionamentos:
 
 ### Análise dos dados
 ```python
-from datetime import datetime, timedelta, date
-from pyspark import SparkContext, SparkConf
-import datetime as dt
-from pyspark.sql import SparkSession, SQLContext
-import pyspark.sql.functions as f
 import pandas as pd
-from pyspark.sql.types import StructType, StructField, StringType, FloatType
-from pyspark.sql.functions import concat, lit, col
-from pyspark.sql.functions import *
+import psycopg2 as pg
+import pandas.io.sql as psql
+import datetime as DT
+from datetime import date, timedelta
+import pytz
+import requests
 ```
