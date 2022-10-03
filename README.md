@@ -3,7 +3,7 @@
 ### Tabela de conteúdos
 =================
 <!--ts-->
-  * [Tecnologias utilizadas](#Tecnologias)
+  * [Tecnologias utilizadas](Tecnologias)
   * [Arquitetura GCP](#Arquitetura-GCP)
   * [Análise dos dados](#Análise-dos-dados)
     * [Item 1](#Item-1)
@@ -17,3 +17,13 @@
     * [Cloud Scheduler](#Cloud-Scheduler)
     * [BigQuery](#BigQuery) 
 <!--te-->
+### Tecnologias
+
+As seguintes ferramentas foram usadas na resolução dos questionamentos:
+
+- Jupyter
+- Anaconda
+- Pandas 
+- Python
+- Drawio
+- Google Cloud Platform
