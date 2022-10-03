@@ -97,8 +97,10 @@ df_parquet_pd
 # Item 4 
 ### 4.	Dataset final com todos os requisitos solicitados
 ```python
-#Comando para leitura do parquet e armazenar em dataframe pandas
-path_parquet_file = "C:\\Users\\caior_op46gft\\Desktop\\arquivo_parquet\\"
-df_parquet_pd = pd.read_parquet(path_parquet_file+'categoria.parquet')
-df_parquet_pd
+##comando para juntar
+df_tabela_final= df_postgressql_pd.merge(df_funcionarios)\
+                                  .merge(df_parquet_pd, left_on='id_categoria', right_on='id',\
+                                         how='left').drop('id', axis=1)
+
+df_tabela_final                                       
 ```
