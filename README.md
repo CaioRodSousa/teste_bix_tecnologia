@@ -27,3 +27,16 @@ As seguintes ferramentas foram usadas na resolução dos questionamentos:
 - Python
 - Drawio
 - Google Cloud Platform
+
+### Análise dos dados
+```python
+from datetime import datetime, timedelta, date
+from pyspark import SparkContext, SparkConf
+import datetime as dt
+from pyspark.sql import SparkSession, SQLContext
+import pyspark.sql.functions as f
+import pandas as pd
+from pyspark.sql.types import StructType, StructField, StringType, FloatType
+from pyspark.sql.functions import concat, lit, col
+from pyspark.sql.functions import *
+```
