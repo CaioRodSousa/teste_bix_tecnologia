@@ -5,12 +5,12 @@
 <!--ts-->
   * [Tecnologias utilizadas](#Tecnologias)
   * [Arquitetura GCP](#Arquitetura-GCP)
-  * [Análise dos dados](#Análise-dos-dados)
+  * [Análise dos dados(Ambiente de desenvolvimento)](#Análise-dos-dados)
     * [Item 1](#Item-1)
     * [Item 2](#Item-2)
     * [Item 3](#Item-3)
     * [Item 4](#Item-4)
-  * GCP
+  * GCP(Ambiente de produção)
     * [Cloud Function](#Cloud-Function)
     * [Cloud Storage](#Cloud-Storage)
     * [Cloud Scheduler](#Cloud-Scheduler)
@@ -27,7 +27,8 @@ As seguintes ferramentas foram usadas na resolução dos questionamentos:
 - Drawio
 - Google Cloud Platform
 
-### Análise dos dados
+### Análise dos dados(ambiente de desenvolvimento)
+### jupyter notebook
 ```python
 import pandas as pd
 import psycopg2 as pg
@@ -101,5 +102,8 @@ df_tabela_final= df_postgressql_pd.merge(df_funcionarios)\
                                   .merge(df_parquet_pd, left_on='id_categoria', right_on='id',\
                                          how='left').drop('id', axis=1)
 
-df_tabela_final                                       
+df_tabela_final
 ```
+![image](https://user-images.githubusercontent.com/73916591/193870896-cd4833b9-6d11-4c49-94e0-78a7268ae7ba.png)
+
+# Cloud Function
