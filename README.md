@@ -5,7 +5,7 @@
 <!--ts-->
   * [Tecnologias utilizadas](#Tecnologias)
   * [Arquitetura](#Arquitetura)
-  * [GCP(Ambiente de produção)](#GCP(Ambiente_de_produção))
+  * GCP(Ambiente de produção)
     * [Cloud Function](#Cloud-Function)
     * [Cloud Storage](#Cloud-Storage)
     * [Cloud Scheduler](#Cloud-Scheduler)
