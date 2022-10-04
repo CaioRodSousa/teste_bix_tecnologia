@@ -236,16 +236,16 @@ Cria tabela no Big Query a partir da tabela final criada no datalake utilizado
 ```
 ![image](https://user-images.githubusercontent.com/73916591/193907495-b1fe9dfb-91f1-454e-a120-0336559a294b.png)
 
-#Cloud Storage
+# Cloud Storage
 
 ![image](https://user-images.githubusercontent.com/73916591/193907708-d00a5298-ca10-4af5-9b5a-7ca69d810f6a.png)
 ![image](https://user-images.githubusercontent.com/73916591/193907865-3887436a-3550-4edf-b4b0-c4ef3fd79b6b.png)
 ![image](https://user-images.githubusercontent.com/73916591/193907947-b773e01a-7fc9-4d53-a795-76b0101d9a0f.png)
 
-#Cloud Scheduler
+# Cloud Scheduler
 
 ![image](https://user-images.githubusercontent.com/73916591/193908937-406b72bc-2408-4c05-832e-3ef32d052192.png)
 
-#BigQuery
+# BigQuery
 
 ![image](https://user-images.githubusercontent.com/73916591/193909485-27a00655-0eaf-477e-acf1-f23a046857ed.png)
