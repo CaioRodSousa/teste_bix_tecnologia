@@ -5,7 +5,7 @@
 <!--ts-->
   * [Tecnologias utilizadas](#Tecnologias)
   * [Arquitetura](#Arquitetura)
-  * [Análise dos dados(Ambiente de desenvolvimento)](#Análise-dos-dados(ambiente de desenvolvimento))
+  * [Análise dos dados(Ambiente de desenvolvimento)](#Análise-dos-dados)
     * [Item 1](#Item-1)
     * [Item 2](#Item-2)
     * [Item 3](#Item-3)
@@ -35,7 +35,7 @@ Ambiente de desenvolvimento:
 ![image](https://user-images.githubusercontent.com/73916591/193939824-348dc745-5162-4552-9e3e-6860e69d5695.png)
 
 
-### Análise dos dados(ambiente de desenvolvimento)
+### Análise dos dados
 ### jupyter notebook
 ```python
 import pandas as pd
