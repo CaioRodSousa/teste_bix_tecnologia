@@ -4,7 +4,7 @@
 =================
 <!--ts-->
   * [Tecnologias utilizadas](#Tecnologias)
-  * [Arquitetura GCP](#Arquitetura)
+  * [Arquitetura](#Arquitetura)
   * [Análise dos dados(Ambiente de desenvolvimento)](#Análise-dos-dados)
     * [Item 1](#Item-1)
     * [Item 2](#Item-2)
