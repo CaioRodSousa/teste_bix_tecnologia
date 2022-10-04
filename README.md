@@ -248,4 +248,8 @@ Cria tabela no Big Query a partir da tabela final criada no datalake utilizado
 
 # BigQuery
 
-![image](https://user-images.githubusercontent.com/73916591/193909485-27a00655-0eaf-477e-acf1-f23a046857ed.png)
+![image](https://user-images.githubusercontent.com/73916591/193910040-75d5e3d0-2a4b-4356-99d0-aab9272a367f.png)
+
+# Dashboard
+
+https://datastudio.google.com/u/0/reporting/4951a03b-4080-47d6-9f7e-cf132faffecc/page/tEnnC
