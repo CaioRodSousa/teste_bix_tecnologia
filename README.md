@@ -4,7 +4,7 @@
 =================
 <!--ts-->
   * [Tecnologias utilizadas](#Tecnologias)
-  * [Arquitetura GCP](#Arquitetura-GCP)
+  * [Arquitetura GCP](#Arquitetura)
   * [Análise dos dados(Ambiente de desenvolvimento)](#Análise-dos-dados)
     * [Item 1](#Item-1)
     * [Item 2](#Item-2)
@@ -26,6 +26,14 @@ As seguintes ferramentas foram usadas na resolução dos questionamentos:
 - Python
 - Drawio
 - Google Cloud Platform
+
+### Arquitetura
+Ambiente de produção:
+![image](https://user-images.githubusercontent.com/73916591/193939603-2cfb2f21-074f-4a62-8dfc-800430cc307c.png)
+
+Ambiente de desenvolvimento:
+![image](https://user-images.githubusercontent.com/73916591/193939824-348dc745-5162-4552-9e3e-6860e69d5695.png)
+
 
 ### Análise dos dados(ambiente de desenvolvimento)
 ### jupyter notebook
