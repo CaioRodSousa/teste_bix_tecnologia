@@ -29,7 +29,7 @@ Ambiente de produção:
 Ambiente de desenvolvimento:
 ![image](https://user-images.githubusercontent.com/73916591/193939824-348dc745-5162-4552-9e3e-6860e69d5695.png)
 
-
+# GCP(Ambiente de produção)
 # Cloud Function
 Entry Point: instantiate_workflow_template
 ```python
@@ -122,7 +122,7 @@ df_tabela_final = df_postgressql_pd.merge(df_funcionarios)\
 #Salva os dados na camada Core do datalake do Cloud Storage
 df_tabela_final.to_csv(path_core_tabela_final , sep = ',', index = False)
 ```
-Cria tabela no Big Query a partir da tabela final criada no datalake utilizado
+Carrega os dados da camada Core do datalake (storage) para o BigQuery para maior performance para análises em SQL e no Dashboard do Datastudio.
 ```python
 #Inicia conexão com o BigQuery
         client = bigquery.Client()
